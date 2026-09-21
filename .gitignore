@@ -1,0 +1,68 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- IDEs / editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.lnk
+
+# --- Jupyter ---
+.ipynb_checkpoints
+
+# --- Testing ---
+.coverage
+.pytest_cache/
+
+# --- Local config / secrets ---
+local_config.py
+secrets.py
+.env
+*.env
+
+# --- Logs ---
+*.log
+*.out
+
+# --- Archived experiments & internal working notes (kept local, not published) ---
+src/_archive/
+EXECUTION_SUMMARY.md
+readme_v2.md
